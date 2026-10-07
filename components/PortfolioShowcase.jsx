@@ -135,7 +135,7 @@ function PersonalIntro() {
         <motion.div initial={{ opacity: 0, x: -36, scale: .94 }} whileInView={{ opacity: 1, x: 0, scale: 1 }} viewport={{ once: true, amount: .35 }} transition={{ duration: .9, ease }} className="relative min-h-[440px] md:min-h-[560px]">
           <div className="about-image-glow absolute left-1/2 top-1/2 h-[72%] w-[72%] -translate-x-1/2 -translate-y-1/2 rounded-full" aria-hidden />
           <div className="about-laptop-float absolute inset-0 flex items-center justify-center">
-            <img src="/about-laptop-profile.png" alt="Thanousone Meksithong appearing from a laptop" className="relative z-10 w-full max-w-[680px] object-contain drop-shadow-[0_28px_28px_rgba(7,31,84,.2)]" />
+            <img src="/profile-portrait-2026.png" alt="Thanousone Meksithong portrait" className="relative z-10 w-full max-w-[490px] rounded-[2rem] border border-black/10 object-contain shadow-[0_28px_60px_rgba(7,31,84,.18)]" />
           </div>
           <div className="about-laptop-cursor hidden md:block" aria-hidden>
             <img src="/hero-cursor-3d.png" alt="" />
@@ -143,7 +143,7 @@ function PersonalIntro() {
           </div>
           <div className="hidden absolute inset-x-2 bottom-0 h-[310px] rounded-[1.5rem] border-2 border-black bg-[#1b1b1b] shadow-[14px_18px_0_#b7b7b7] md:inset-x-10">
             <div className="absolute inset-x-3 top-3 h-[235px] overflow-hidden rounded-xl bg-gradient-to-br from-[#d9dde6] to-white">
-              <img src="/profile-image.jpg" alt="Thanousone Meksithong profile" className="h-full w-full object-cover object-top" />
+              <img src="/profile-portrait-2026.png" alt="Thanousone Meksithong profile" className="h-full w-full object-cover object-top" />
             </div>
             <div className="absolute bottom-4 left-1/2 h-2 w-20 -translate-x-1/2 rounded-full bg-white/15" />
           </div>
@@ -246,10 +246,11 @@ function Experience() {
 function Contact() {
   return (
     <footer id="contact" className="chapter-band px-5 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-[1400px]"><p className="section-kicker text-white/55">05 / Start a project</p><h2 className="mt-6 max-w-[10ch] text-[clamp(3.5rem,9vw,8rem)] font-black uppercase leading-[.82] tracking-[-.07em]">Make it impossible to ignore.</h2><a href={`mailto:${profile.email}`} className="mt-12 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-sm font-black uppercase text-[#071b50] transition hover:scale-105"><Mail size={17} />{profile.email}</a><div className="mt-20 flex flex-col justify-between gap-5 border-t border-white/30 pt-6 font-mono text-[10px] uppercase tracking-[.16em] text-white/55 md:flex-row"><span>Thanousone Meksithong © 2026</span><span>Vientiane · Laos</span></div></div>
+      <div className="mx-auto max-w-[1400px]"><p className="section-kicker text-white/55">05 / Start a project</p><a href="/Thanousone_Meksithong_CV_2026.pdf" download className="mt-6 inline-flex rounded-full border border-white/40 px-5 py-3 text-sm font-semibold hover:bg-white hover:text-[#071b50]">Download CV ↗</a><h2 className="mt-6 max-w-[10ch] text-[clamp(3.5rem,9vw,8rem)] font-black uppercase leading-[.82] tracking-[-.07em]">Make it impossible to ignore.</h2><a href={`mailto:${profile.email}`} className="mt-12 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-sm font-black uppercase text-[#071b50] transition hover:scale-105"><Mail size={17} />{profile.email}</a><div className="mt-20 flex flex-col justify-between gap-5 border-t border-white/30 pt-6 font-mono text-[10px] uppercase tracking-[.16em] text-white/55 md:flex-row"><span>Thanousone Meksithong © 2026</span><span>Vientiane · Laos</span></div></div>
     </footer>
   );
 }
+
 
 
 
