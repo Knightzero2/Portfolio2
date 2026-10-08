@@ -33,8 +33,8 @@ const experienceEn = [
     tags: ["F&B Marketing", "Brand Communication", "Content Strategy", "Social Media", "Campaigns"],
   },
   {
-    period: "Feb 2025 — Apr 2025",
-    role: "Marketing & Content",
+    period: "Feb 2025 — Apr 2026",
+    role: "Marketing & Content Creator",
     org: "Asiania International Consulting (i-study)",
     location: "Vientiane",
     summary:

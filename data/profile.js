@@ -29,8 +29,8 @@ export const experience = [
   },
   {
     period: "ກຸມພາ 2025 — ເມສາ 2025",
-    periodEn: "Feb 2025 — Apr 2025",
-    role: "Marketing & Content",
+    periodEn: "Feb 2025 — Apr 2026",
+    role: "Marketing & Content Creator",
     org: "Asiania International Consulting (i-study)",
     location: "ວຽງຈັນ",
     summary:
